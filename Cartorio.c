@@ -128,9 +128,9 @@ int del(){
     return 0;
 }
 
-/*int sair(){
+int sair(){
     exit(0);
-}*/
+}
 
 
 
@@ -159,7 +159,7 @@ int main() {
             printf("\t1 - Registrar nomes\n\n");
             printf("\t2 - Consultar nomes\n\n");
             printf("\t3 - Deletar nomes\n\n");
-            /*printf("\t4 - Sair\n\n");*/
+            printf("\t4 - Sair\n\n");
             printf("Opção: \n\n");
 
             scanf("%d", &op);
@@ -180,9 +180,9 @@ int main() {
                 del();
                 break;
 
-            /*case 4:
+            case 4:
                 sair();
-                break; */
+                break;
 
 
             default:
